@@ -18,7 +18,7 @@ dotnet build src/TMLiOS.App/TMLiOS.App.csproj \
   -f net8.0-ios \
   -r ios-arm64 \
   /p:BuildIpa=false \
-  /p:PublishTrimmed=false \
+  /p:PublishTrimmed=true \
   /p:MtouchLink=None \
   /p:UseInterpreter=true \
   /p:MtouchInterpreter=-all
