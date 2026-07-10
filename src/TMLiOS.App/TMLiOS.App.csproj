@@ -16,7 +16,7 @@
 
     <UseInterpreter>true</UseInterpreter>
     <MtouchInterpreter>-all</MtouchInterpreter>
-    <PublishTrimmed>false</PublishTrimmed>
+    <PublishTrimmed>true</PublishTrimmed>
     <MtouchLink>None</MtouchLink>
     <EnableAotAnalyzer>false</EnableAotAnalyzer>
     <BuildIpa>true</BuildIpa>
