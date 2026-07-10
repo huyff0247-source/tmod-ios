@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net8.0-ios'">
+    <PublishTrimmed>true</PublishTrimmed>
+    <MtouchLink>None</MtouchLink>
+    <UseInterpreter>true</UseInterpreter>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+  </PropertyGroup>
+</Project>
