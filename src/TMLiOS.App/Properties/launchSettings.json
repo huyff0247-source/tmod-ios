@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "TMLiOS.App": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+
+    <ApplicationTitle>tModLoader iOS</ApplicationTitle>
+    <ApplicationId>com.tmlios.bootstrap</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>0.1.0</ApplicationDisplayVersion>
+
+    <SupportedOSPlatformVersion>16.0</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <UseInterpreter>true</UseInterpreter>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+    <PublishTrimmed>false</PublishTrimmed>
+    <MtouchLink>None</MtouchLink>
+    <EnableAotAnalyzer>false</EnableAotAnalyzer>
+    <BuildIpa>true</BuildIpa>
+    <CodesignEntitlements>Platforms/iOS/Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../TMLiOS.Core/TMLiOS.Core.csproj" />
+  </ItemGroup>
+
+</Project>
